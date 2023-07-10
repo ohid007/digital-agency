@@ -6,8 +6,8 @@ body{
 nav{
     display: flex;
     justify-content: space-between;
-    width: 900px;
-    margin-left: 100px;
+    width: 80%;
+    margin: auto;
     
 }
 nav>ul{
