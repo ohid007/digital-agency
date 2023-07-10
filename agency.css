@@ -1,0 +1,237 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+    margin-left: 100px;
+    
+}
+nav>ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+   
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    background-color: rgb(202, 200, 200);
+}
+.bg-banner{
+            height: 100vh;
+            background-image: url(/asset/image/background.jpg),linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.4));
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-blend-mode: overlay;
+            text-align: center;
+            background-position: center;
+            display: flex;
+            align-items: center;
+        
+}
+h1{
+    margin: 0px;
+
+}
+.red{
+    color: red;
+}
+.title{
+    font-size: 30px;
+    color: white;
+    
+    
+}
+.title-info{
+    font-size: 20px;
+    color: white;
+    padding:10px;
+   
+    width:50%;
+    margin: auto;
+}
+.bg-button{
+    font-size: 30px;
+    padding: 10px;
+    border: 0px;
+   margin: 10px;
+   border-radius: 10px;
+}
+.primary{
+    background-color: red;
+    
+}
+.service-container{
+    height: 100vh;
+    background-image: url(/asset/image/footer-bg.png), linear-gradient(rgb(5, 0, 0,0.8), rgba(0, 0, 0, 0.9));
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 20px;
+    justify-content: space-between;
+}
+.service-box{
+    display: flex;
+    gap: 10px ;
+    margin: 10px;
+    
+}
+.products{
+    background-color: white;
+    color: black;
+    text-align: center;
+    width: 250px;
+    text-align: center;
+     padding: 20px;
+     border-radius: 10px;
+}
+.icons{
+    width: 100px;
+    padding: 20px;
+    padding-bottom: 0px;
+
+}
+.info{
+    width: 400px;
+}
+.author-img{
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    padding: 10px;
+    
+}
+.author{
+    display: flex;
+    
+   
+}
+.author-info{
+    justify-content: center;
+    padding: 10px;
+    display: flex;
+    border-right: 2px solid red;
+}
+.author-button{
+    border: none;
+    justify-content: center;
+    font-size: 20px;
+   border-radius: 30px;
+   padding: 10px 35px;
+   text-align: center;
+   margin: 20px 20px;
+   
+}
+.appointment-container{
+    background-color: red;
+    display: flex;
+    height: 200px;
+    width: 80%;
+    align-items: center;
+    border-radius: 20px ;
+    margin: auto;
+    margin-top: -50px;
+}
+.phone-call{
+    display: flex;
+    color: white;
+    border-right: 3px solid brown;
+    padding: 20px;
+}
+.appointment{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.blog-description{
+    width: 40%;
+    margin: auto;
+    margin-top: 40px;
+    text-align: center;
+   
+}
+
+
+.blog{
+    width: 350px;
+    background: white;
+    box-shadow: 4px 4px 8px gray;
+    border-radius: 10px;
+    align-items: center;
+    margin: 25px;
+}
+.blog-img{
+    width: 350px;
+    height: 250px;
+    border-radius: 10px 10px 0px 0px;
+ }
+.blog-title{
+            font-size: 25px;
+            
+
+}
+.bloginfo{
+    padding: 20px;
+
+}
+.blog-container{
+    display: flex;
+}
+ 
+footer{
+    width: 100%;
+    height: 70vh;
+    background-image: url("./asset/image/footer-bg.png"),linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.9));
+    background-repeat:no-repeat;
+    background-blend-mode: overlay;
+    color: white;
+    line-height: 1.8em;
+   
+}
+.footer-container{
+    display: flex;
+    width: 75%;
+    height: 60vh;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items: center;
+    /* padding: 20px; */
+    border-bottom: 1px solid gray;
+}
+.logo-box{
+    width: 25%;
+}
+.logo-box img{
+    width:170px;
+}
+
+.copy{
+    text-align: center;
+    padding: 15px;
+}
+.fa-solid{
+    margin-right: 7px;
+}
+.footer-title{
+    margin-bottom: 30px;
+}
+.icons{
+    /* text-align: center; */
+    margin-top:20px;
+}
+.fa-brands{
+    margin: 10px;
+    font-size:20px;
+}
